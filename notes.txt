@@ -1,0 +1,29 @@
+
+shaw hotspots file
+www.shaw.ca/uploadedfiles/internet/wi-fi/externdata.js
+
+mocha command for windows
+node_modules\.bin\mocha -u tdd --reporter spec -w
+
+git command to push to azure
+git remote add azure https://jsauter@plus15.scm.azurewebsites.net/plus15.git
+git push azure master
+
+azure linux vm terminal connection
+ssh jsauter@nodesrv.cloudapp.net
+
+
+Linux server setup
+1) generate key for ssh
+2) install node and npm (https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)
+3) git pull code
+4) npm install
+5) install nodemon
+6) install forever
+7) setup iptables
+	sudo iptables -A PREROUTING -t nat -i eth1 -p tcp --dport 80 -j DNAT --to 127.0.0.1:3000
+	sudo iptables -A INPUT -p tcp -m state --state NEW --dport 80 -i eth1 -j ACCEPT
+
+
+Start mongo db
+mongod --dbpath ./data/db/  <-- wherever you want to run the db

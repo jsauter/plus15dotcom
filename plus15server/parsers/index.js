@@ -1,0 +1,1 @@
+exports.ShawHotspotsParser = require('./shawHotspotsParser.js');

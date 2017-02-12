@@ -1,0 +1,1 @@
+exports.Inherit = require('./inherit.js');

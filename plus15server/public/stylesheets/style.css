@@ -1,0 +1,29 @@
+ html { height: 100% }
+ body { height: 100%; margin: 0px; padding: 0px }
+ #map_canvas { height: 100% }
+ #drawerhandle
+ { 
+ 	position: absolute;
+ 	right: 40%;
+ 	width: 20%;
+ 	height: 5%;
+ 	bottom: 0%;
+ 	z-index: 1;
+ 	background-color: #C0C0C0;
+ 	border-top-left-radius: 10px;
+ 	border-top-right-radius: 10px;
+ }
+
+#drawercontent 
+ { 
+ 	position: absolute;
+ 	right: 10%;
+ 	left: 10%;
+ 	width: 80%;
+ 	height:0%;
+ 	bottom: 0%;
+ 	z-index: 2;
+ 	background-color: #C0C0C0;
+ 	border-top-left-radius: 10px;
+ 	border-top-right-radius: 10px;
+ }

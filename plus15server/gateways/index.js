@@ -1,0 +1,1 @@
+exports.ShawHotspotsGateway = require('./shawHotspotsGateway.js');

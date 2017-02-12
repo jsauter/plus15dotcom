@@ -1,0 +1,8 @@
+#Folders#
+#########
+node_modules/
+
+#OS Generate files#
+###################
+.DS_Store
+npm-debug.log

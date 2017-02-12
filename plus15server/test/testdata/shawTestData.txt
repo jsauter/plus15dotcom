@@ -1,0 +1,1 @@
+var mySpots = [{"NameOfBusiness":"SUBWAY","Address":"116, 40 Country Hills Landing NE","City":"Calgary","LatLon":{"Latitude":51.14191,"Longitude":-114.07051},"LineOfBusiness":"Restaurants","IndoorOutdoor":3,"ContactPhone":"403.471.8903","Website":"","CoverageZone":0,"CoverageID": ""}]
